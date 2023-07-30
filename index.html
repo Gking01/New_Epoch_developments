@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/owl.carousel.js"></script>
+
+<script src="js/camera.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+ $(document).ready(function(){
+  jQuery('#camera_wrap').camera({
+      loader: false,
+      pagination: false ,
+      minHeight: '400',
+      thumbnails: false,
+      height: '30.05208333333333%',
+      caption: true,
+      navigation: true,
+      fx: 'mosaic'
+    });
+  /* carousel */
+     $("#owl").owlCarousel({
+          items : 1, //10 items above 1000px browser width
+          itemsDesktop : [995,1], //5 items between 1000px and 901px
+          itemsDesktopSmall : [767, 1], // between 900px and 601px
+          itemsTablet: [700, 1], //2 items between 600 and 0
+          itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+          navigation : true,
+          pagination :  false
+
+      });
+
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});
+  }); 
+</script>
+<!--[if lt IE 9]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+
+
+<![endif]-->
+</head>
+
+<body class="page1" id="top">
+  <div class="main">
+<!--==============================
+              header
+=================================-->
+<header>
+<!--==============================
+            Stuck menu
+=================================-->
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">
+        <!-- <div class="socials">
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-google-plus"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+        </div> -->
+        <!-- <div class="clear"></div> -->
+        <a href="index.html"><img src="images/logo.png" alt="Logo alt"></a>
+      <div class="clear"></div>
+    </div>
+   </div>
+  </div>
+  <div id="stuck_container">
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+              <li class="current"><a href="index.html">Home</a></li>
+              <li><a href="index-1.html">Projects</a></li>
+              <li><a href="index-2.html">Services</a></li>
+              <li><a href="index-3.html">Contact Us</a></li>
+              <li><a href="index-4.html">About Us</a></li>
+            </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="slider_wrapper">
+  <div id="camera_wrap" class="">
+    <div data-src="images/slide.jpg">
+      <div class="caption fadeIn">
+        Passion in Creating new Spaces
+      </div>
+    </div>
+    <div data-src="images/slide1.jpg">
+      <div class="caption fadeIn">
+        We Build the new World
+      </div>
+    </div>
+    <div data-src="images/slide2.jpg">
+      <div class="caption fadeIn">
+        Great Architecture Solutions
+      </div>
+    </div>
+  </div>
+</div>  
+<!--=====================
+          Content
+======================-->
+<section class="content">
+  <article class="content_bg1 pad__1">
+    <div class="container">
+      <div class="row">
+        <div class="grid_6">
+          <div class="block1">
+            <div class="count"> 01</div>
+            <h3>Architecture</h3>
+            <div class="text1">Seamless Integration of Form and Function</div>
+            <p>Our architectural approach is grounded in our unwavering commitment to seamlessly integrate the aesthetic form with the functional requirements of each project. We believe that architecture should not only captivate with its visual appeal but also optimize efficiency, flow, and usability for the ultimate user experience.</p>
+            <p>Whether it's designing contemporary residential homes, cutting-edge commercial structures, or transformative public spaces, our team strives to create architectural solutions that surpass client expectations. By combining our expertise with the unique vision and needs of each client, we ensure that every project is tailored to their distinct requirements. </p>
+            <!-- <a href="#" class="btn">More</a> -->
+          </div>
+        </div>
+        <div class="grid_6">
+          <div class="block1">
+            <div class="count">02</div>
+            <h3>Interior</h3>
+            <div class="text1">Transforming Spaces with Exceptional Interior Design</div>
+            <p>From concept development to the final touches, our interior design process is characterized by attention to detail, creativity, and a commitment to quality. <br><br>We carefully select materials, furniture, and accessories that align with the desired ambiance and purpose of the space. Our designers possess a keen eye for color, texture, and proportion, ensuring that each element harmoniously comes together to create a cohesive and inviting interior. With a focus on functionality, we optimize the layout and flow of spaces, making them not only visually stunning but also highly practical for daily use.</p>
+            <!-- <a href="#" class="btn">More</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <div class="pad__1">
+    <div class="container">
+      <div class="row">
+        <div class="grid_6">
+          <div class="block1">
+            <div class="count">03</div>
+            <h3>Construction</h3>
+            <div class="text1">Building Excellence and Delivering Quality Construction Projects</div>
+            <p class="">We understand that construction projects can be complex and demanding. That's why we approach each project with a comprehensive and collaborative mindset. Our skilled project managers work closely with clients, architects, engineers, and subcontractors to ensure effective communication, efficient coordination, and seamless execution. By leveraging our extensive industry knowledge and expertise, we tackle challenges head-on and find innovative solutions that meet project goals, timelines, and budgets. <br><br>With our unwavering commitment to client satisfaction, we strive to build long-lasting relationships based on trust, integrity, and a shared vision for success.</p>
+            <!-- <a href="#" class="btn">More</a> -->
+          </div>
+        </div>
+        <div class="grid_6">
+          <div class="block1">
+            <div class="count">04</div>
+            <h3>Renovation</h3>
+            <div class="text1">Transforming Spaces with Renovation Excellence</div>
+            With our renovation services, we aim to create spaces that are not only aesthetically pleasing but also highly functional and tailored to your specific requirements. Our team of designers, architects, and craftsmen collaborate closely to deliver exceptional results. <br><br> We take pride in our attention to detail, using high-quality materials and employing the latest industry techniques to ensure durability and longevity. Whether it's a simple refresh or a complete overhaul, we approach each renovation project with the utmost dedication and professionalism, leaving no stone unturned in our pursuit of excellence.
+            <!-- <a href="#" class="btn">More</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <article class="content_bg1 pad__2">
+    <div class="container">
+      <div class="row">
+        <div class="grid_6 Qk-link">
+          <h2>About us</h2>
+          <img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
+          <div class="extra_wrapper">
+            <div class="text1"><a href="index-4.html">Building Dreams, Delivering Excellence:</a></div>
+            Driven by a passion for construction excellence,
+            at New Epoch Development (Pty) Ltd. a BBBEEE owned private company (Reg.No 2014/034003/07), we are passionate about construction and dedicated to delivering excellence in every project we undertake. With over 20 years of industry experience and a skilled team of professionals, we have established ourselves as a trusted name in the construction industry.
+          </div>
+          <div class="clear"></div>
+          <a href="index-4.html" class="btn bt__1">More</a>
+        </div>
+      </div>
+    </div>
+  </article>
+  <div class="container">
+    <div class="row">
+      <div class="grid_6 preffix_3 ta__center">
+        <h2 class="color1">Testimonials</h2>
+        <div id="owl">
+          <div class="item">
+            <div class="text2">John and Sarah, Satisfied Homeowners</div>"Working with New Epoch Developments PTY (LTD) was an absolute pleasure. Their attention to detail, professionalism, and commitment to quality resulted in a renovation that exceeded our expectations. We highly recommend their services." 
+          </div>
+          <div class="item">
+            <div class="text2">Amanda, Business Owner</div>"We hired New Epoch Developments PTY (LTD) for our commercial construction project, and they delivered outstanding results. Their team's expertise, seamless coordination, and adherence to timelines made the entire process smooth and hassle-free. We couldn't be happier with the final outcome."
+          </div>
+          <div class="item">
+            <div class="text2">Mark, Office Manager</div>"I can't thank New Epoch Developments PTY (LTD) enough for the incredible interior design work they did for my office space. Their creative vision, meticulous planning, and impeccable execution transformed the space into a functional and inspiring environment. It has significantly enhanced the overall productivity and aesthetic appeal of our workplace."
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+</div>
+<footer id="footer" class="footer-distributed">
+  <div class="container">
+    <div class="footer-left">
+
+      <img src="./images/logo.png" alt="logo">
+  
+      <p class="footer-links">
+        <!-- <a href="index.html">Home</a> -->
+        <a href="index-1.html">Projects</a>
+        <a href="index-2.html">Services</a>
+        <a href="index-3.html">Contact Us</a>
+        <a href="index-4.html">About Us</a>
+      </p>
+  
+      <!-- <p class="footer-company-name">New Epoch Developments</p> -->
+    </div>
+  
+    <div class="footer-center">
+  
+      <div class="faddress">
+        <i class="fa fa-map-marker"></i>
+        <p><span>80 Ivoorhout Street <br> Delft Western Cape</span></p>
+      </div>
+  
+      <div class="ph one">
+        <i class="fa fa-phone"></i>
+        <p>+27 83 520 9809</p>
+      </div>
+  
+      <div class="ph two">
+        <i class="fa fa-phone"></i>
+        <p>+27 74 757 6989</p>
+      </div>
+  
+      <div class="email__one">
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:jasminebennett73@gmail.com">jasminebennett73@gmail.com</a></p>
+      </div>
+      <div class="email__two">
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:skunaku@gmail.com">skunaku@gmail.com</a></p>
+      </div>
+  
+    </div>
+  
+    <div class="footer-right">
+  
+      <p class="footer-company-about">
+        <span>When you choose New Epoch Development (Pty) Ltd., you can trust us to handle every aspect of your project with professionalism, expertise, and a genuine dedication to your satisfaction.</span>
+      </p>
+  
+    </div>
+    <div class="row">
+      <div class="grid_12">
+         <div class="copyright">
+          <div class="color2"><strong>New Epoch Developments PTY (LTD)</strong> &copy; <span id="copyright-year"></span>
+          </div>
+
+         <p class="color2 dt">Designed by <strong><span class="fcolor">D</span>igi<span class="fcolor">D</span>ev<span class="fcolor">I</span>ndustry</strong></p>
+          </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+
